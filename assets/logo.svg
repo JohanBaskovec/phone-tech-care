@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Phone Tech Care</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <!-- phone body -->
+  <rect x="19" y="10" width="26" height="44" rx="6" fill="none" stroke="#fff" stroke-width="3.2"/>
+  <rect x="28" y="14.5" width="8" height="2.2" rx="1.1" fill="#fff"/>
+  <!-- pulse line : la "care" -->
+  <path d="M12 34h11l3.5-7 5 14 4-10 2.5 3H52" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
