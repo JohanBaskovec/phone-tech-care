@@ -35,7 +35,7 @@
   });
 
   // Apparition au défilement
-  var targets = document.querySelectorAll('.card, .step, .feature, .section__head, .why__text, .contact__info > div');
+  var targets = document.querySelectorAll('.card, .step, .feature, .price, .review, .section__head, .why__text, .contact__info > div');
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
